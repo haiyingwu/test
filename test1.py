@@ -25,7 +25,8 @@ application = tornado.web.Application([
     (r"/modefy", IndexHandler),
 ])
 
-print "add first code"
+print "add first and code"
+
 
 if __name__ == "__main__":
     application.listen(8888)
