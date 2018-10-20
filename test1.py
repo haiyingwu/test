@@ -22,8 +22,10 @@ class IndexHandler(tornado.web.RequestHandler):
 
 application = tornado.web.Application([
     (r"/main", MainHandler),
-    (r"/index", IndexHandler),
+    (r"/modefy", IndexHandler),
 ])
+
+print "add code"
 
 if __name__ == "__main__":
     application.listen(8888)
