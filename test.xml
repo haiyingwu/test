@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<Snapshot>
+    <Version ver="1"/>
+    <SubServer desc="pctr">
+        <Set module_name="set-gdt_dt_pctr-31" module_id="31">
+            <Solist num="5" attr="common">
+                <so algid="301.6639.0" ipids="0"/>
+                <so algid="3020.102.0" ipids="0"/>
+                <so algid="3022.900.0" ipids="0"/>
+                <so algid="601.1.0" ipids="0"/>
+                <so algid="602.1.0" ipids="0"/>
+            </Solist>
+            <Srvs num="1">
+                <machine id="1" ip="100.107.24.208" port="60321" city="TIANJIN"/>
+            </Srvs>
+        </Set>
+        <Set module_name="set-gdt_dt_pctr-32" module_id="32">
+            <Solist num="5" attr="common">
+                <so algid="301.6639.0" ipids="0"/>
+                <so algid="3020.102.0" ipids="0"/>
+                <so algid="3022.900.0" ipids="0"/>
+            </Solist>
+            <Srvs num="1">
+                <machine id="1" ip="100.107.24.209" port="60321" city="TIANJIN"/>
+            </Srvs>
+        </Set>
+
+        <Set module_name="set-tre_stest_pctr-31" module_id="31">
+            <Solist num="6" attr="common">
+                <so algid="3022.86.0" ipids="0"/>
+                <so algid="3025.101.0" ipids="0"/>
+                <so algid="3033.101.0" ipids="0"/>
+                <so algid="500.0.0" ipids="0"/>
+                <so algid="601.1.0" ipids="0"/>
+                <so algid="602.1.0" ipids="0"/>
+            </Solist>
+            <Srvs num="2">
+                <machine id="1" ip="10.208.144.84" port="45678" city=""/>
+                <machine id="2" ip="10.208.133.14" port="45678" city="TIANJIN"/>
+            </Srvs>
+        </Set>
+    </SubServer>
+</Snapshot>
+
+
