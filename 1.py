@@ -21,7 +21,7 @@ import time
 #
 # foo()
 from xml.dom import minidom
-# print "hh"
+# print "hhaaaa"
 # def test(i):
 #     if i==2:
 #         m=3
