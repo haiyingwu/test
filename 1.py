@@ -29,6 +29,13 @@ from xml.dom import minidom
 #         print 'ok'
 #     print 'error'
 # test(2)
+print 'hehe'
+print "hh"
+def test(i):
+    if i==2:
+        print 'ok'
+    print 'error'
+test(2)
 
 import commands
 so_list = {}
